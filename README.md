@@ -26,3 +26,23 @@ Max pooling
 Fully connected layers
 Sigmoid activation for binary classification
 ![WhatsApp Image 2025-12-14 at 08 00 16_6dd06568](https://github.com/user-attachments/assets/0baae317-7765-4b54-a228-4bf0c635e166)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The dataset consists of:
+Real images
+Fake (deepfake) images
+Images are organized as:
+
+dataset/
+├── train/
+│   ├── real/
+│   └── fake/
+├── validation/
+│   ├── real/
+│   └── fake/
+
+
+You may use datasets such as:
+FaceForensics++
+DeepFake Detection Challenge (DFDC)
+UADFV
